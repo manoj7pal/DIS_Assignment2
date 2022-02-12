@@ -347,8 +347,9 @@ namespace DIS_Assignment2_Final
                         if(addition>100)
                             addition = widths[dictionary[c]];
                     }
-                }
-
+                } 
+		row += 1;
+		    
                 res.Add(row);
                 res.Add(addition);
             }
